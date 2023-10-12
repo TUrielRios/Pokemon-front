@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.700b2fd8.css",
+    "main.js": "/static/js/main.d88f4fce.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/tiziano.jpg": "/static/media/tiziano.fea1003d11ee2b7f94b9.jpg",
+    "static/media/fondo-home.jpeg": "/static/media/fondo-home.1a372690a34b58e180c3.jpeg",
+    "static/media/landing-fondo.jpg": "/static/media/landing-fondo.2e255b9c0d0172f0ec10.jpg",
+    "static/media/detail.jpeg": "/static/media/detail.210efdc39bc61c680649.jpeg",
+    "static/media/pokeball.gif": "/static/media/pokeball.f5c0a87759c32ec07705.gif",
+    "static/media/notFound.gif": "/static/media/notFound.818f311640de559ee54b.gif",
+    "static/media/creator.png": "/static/media/creator.3fc7b6dbb28bf343f29a.png",
+    "static/media/loading.gif": "/static/media/loading.30c0aa7c3e2579d868a6.gif",
+    "static/media/linkedin-logo.png": "/static/media/linkedin-logo.6ac77341c7a1f1743ba6.png",
+    "static/media/filters.png": "/static/media/filters.e2c17105a8896613a7e8.png",
+    "index.html": "/index.html",
+    "main.700b2fd8.css.map": "/static/css/main.700b2fd8.css.map",
+    "main.d88f4fce.js.map": "/static/js/main.d88f4fce.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.700b2fd8.css",
+    "static/js/main.d88f4fce.js"
+  ]
+}
