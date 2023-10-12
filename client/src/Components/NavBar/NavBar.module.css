@@ -102,3 +102,62 @@
   transition-duration: 400ms;
   transition-property: width, left;
 }
+
+@media (max-width: 768px) {
+  .navContainer {
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+  }
+  
+  .imgContainer img {
+    width: 8rem; /* Reducimos el tamaño de la imagen para dispositivos móviles */
+    margin-left: -20px;
+  }
+  
+  .linkContainer {
+    display: flex;
+    width: 100%; /* Utilizamos el ancho completo para dispositivos móviles */
+    justify-content: space-between;
+    align-items: center;
+    margin: 0; /* Eliminamos el margen lateral para dispositivos móviles */
+    padding: 0 20px; /* Agregamos espacio interno a los enlaces para dispositivos móviles */
+  }
+  
+  .linkHome,
+  .linkCrear {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 14px; /* Reducimos el tamaño de fuente para dispositivos móviles */
+  }
+  
+  .linkHome {
+    font-weight: 600;
+  }
+  
+  .linkHome:focus,
+  .linkHome:hover,
+  .linkCrear:focus,
+  .linkCrear:hover {
+    color: #fff;
+  }
+  
+  .linkHome:focus:after,
+  .linkHome:hover:after,
+  .linkCrear:focus:after,
+  .linkCrear:hover:after {
+    width: 100%;
+    left: 0%;
+  }
+  
+  .linkHome:after,
+  .linkCrear:after {
+    bottom: -2px;
+    left: 50%;
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+  }
+}
