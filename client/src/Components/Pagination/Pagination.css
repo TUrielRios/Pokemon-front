@@ -1,0 +1,40 @@
+/* Estilos para el contenedor de paginación */
+nav {
+    text-align: center;
+}
+
+/* Estilos para la lista de paginación */
+.pagination {
+list-style: none;
+padding: 0;
+display: flex; /* Cambiamos la propiedad display a flex */
+justify-content: center; /* Centramos los elementos horizontalmente */
+align-items: center; /* Centramos los elementos verticalmente */
+}
+
+/* Estilos para los elementos de la lista de paginación */
+.pagination li {
+margin: 0;
+padding: 0;
+display: inline-block; /* Hacemos que los elementos se muestren en línea */
+margin: 2px;
+}
+
+/* Estilos para los botones de paginación */
+.boton {
+background-color: #fff;
+border: 1px solid #ccc;
+border-radius: 5px;
+color: #333;
+cursor: pointer;
+margin: 2px;
+padding: 5px 10px;
+text-align: center;
+text-decoration: none;
+transition: background-color 0.3s, color 0.3s;
+}
+
+.boton:hover {
+background-color: #007BFF;
+color: #fff;
+}

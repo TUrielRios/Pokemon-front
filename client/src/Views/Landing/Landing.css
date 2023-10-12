@@ -1,0 +1,58 @@
+/* Landing.css */
+.landing-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../assets/landing-fondo.jpg"); /* Agrega la ruta de tu imagen de fondo aquí */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 20px;
+}
+
+.text-center {
+    color: white;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.87);
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+        
+}
+.by{
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.87);
+    letter-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+.redirect-button {
+    padding: 10px 20px;
+    background-color: #fc8434; /* Color de fondo del botón compatible con un atardecer */
+    color: rgb(238, 255, 254); /* Color del texto del botón */
+    border: none;
+    border-radius: 80px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+.redirect-button:hover {
+    background-color: #ff4e35; /* Cambia el color de fondo al pasar el cursor sobre el botón */
+}
+

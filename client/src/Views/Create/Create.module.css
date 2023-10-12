@@ -1,0 +1,283 @@
+.containerF {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-image: url('../../assets/creator.png');
+  background-size: cover;
+  background-position: right top;
+  background-repeat: no-repeat;
+  padding: 20px;
+  height: 100vh;
+}
+
+.guiaP {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.spanBo {
+  text-decoration: none;
+}
+
+.buttonVolver {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttonVolver:hover {
+  background-color: #2980b9;
+}
+
+.containerGuia {
+  margin-top: 20px;
+}
+
+.necesitasP h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.linkParaCrear {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.linkParaCrear:hover {
+  text-decoration: underline;
+}
+
+.guiaP h4 {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.formContainer {
+  margin-left: 20px;
+  width: 25%;
+  height: 80vh;
+  background-color: #f1f1f1; /* Fondo gris para el formulario */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.formTitle {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+.inputContainer input[type="text"],
+.inputContainer input[type="number"],
+.selectType {
+  width: 75%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 0 auto; /* Centra horizontalmente */
+}
+
+.inputContainer {
+    margin-bottom: 5px; /* Añade espacio en la parte inferior de cada input */
+  }
+  
+
+select {
+  width: 75%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+.buttonCrear {
+  background-color: #27ae60;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttonCrear:hover {
+  background-color: #219651;
+}
+
+.divDelete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e74c3c;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+.typeElegido {
+  color: white;
+  margin: 0;
+  font-size: 14px;
+}
+
+.botonX {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.botonX:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .containerF {
+    display: flex;
+    flex-direction: column; /* Cambiamos la dirección de flex a columna para dispositivos móviles */
+    justify-content: flex-start;
+    align-items: center; /* Centramos verticalmente */
+    background-image: url('../../assets/creator.png');
+    background-size: cover;
+    background-position: center top; /* Centramos la imagen */
+    background-repeat: no-repeat;
+    padding: 20px;
+    height: 400vh;
+    margin: 10px;
+  }
+  
+  .guiaP {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 90%; /* Aumentamos el ancho para llenar la pantalla */
+  }
+  
+  .spanBo {
+    text-decoration: none;
+  }
+  
+  .buttonVolver {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; /* Añadimos espacio en la parte superior */
+  }
+  
+  .buttonVolver:hover {
+    background-color: #2980b9;
+  }
+  
+  .containerGuia {
+    margin-top: 20px;
+  }
+  
+  .necesitasP h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .linkParaCrear {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  .linkParaCrear:hover {
+    text-decoration: underline;
+  }
+  
+  .guiaP h4 {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  .formContainer {
+    margin-top: 20px;
+    height: 200vh;
+    width: 90%; /* Aumentamos el ancho para llenar la pantalla */
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .formTitle {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+  }
+  
+  .inputContainer input[type="text"],
+  .inputContainer input[type="number"],
+  .selectType {
+    width: 100%; /* Ancho al 100% para llenar el contenedor */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0; /* Agregamos espacio vertical entre elementos */
+  }
+  
+  select {
+    width: 100%; /* Ancho al 100% para llenar el contenedor */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .buttonCrear {
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; /* Añadimos espacio en la parte superior */
+  }
+  
+  .buttonCrear:hover {
+    background-color: #219651;
+  }
+  
+  .divDelete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e74c3c;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+  }
+  
+  .typeElegido {
+    color: white;
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .botonX {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .botonX:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+}

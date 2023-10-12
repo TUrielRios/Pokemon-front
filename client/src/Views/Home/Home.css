@@ -1,0 +1,91 @@
+/* Estilos para la barra de filtros */
+
+body{
+    background-image: url('../../assets/fondo-home.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.order-by-name,
+.order-attack,
+.order-types,
+.order-filter-created,
+.order-hp {
+    margin: 10px;
+}
+
+.filters {
+    height: 30px;
+    margin-top: 5px;
+    padding: 20px;
+}
+.filter-options{
+    display: flex;
+    width: 75%;
+    justify-content: center;
+    margin: 0 auto;
+}
+/* Estilos para el contenedor de tarjetas */
+.linkCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Cambiamos justify-content a space-between para separar las tarjetas */
+}
+
+  /* Estilos para las tarjetas de Pokémon */
+.card {
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    color: rgb(255, 253, 127);
+    background-image: url('../../assets/detail.jpeg');
+    background-size: cover;
+    border-radius: 50px;
+    width: calc(20%); /* Cambiamos el ancho para que se muestren tres en una fila */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: transform 0.2s;
+}
+
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Estilos para los mensajes de error */
+.error-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.not-found {
+    font-size: 18px;
+    color: red;
+    font-weight: bold;
+}
+
+.signos {
+    font-size: 24px;
+    color: red;
+}
+
+/* Estilos para el cargando */
+.containerLoading {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.gif {
+    width: 50px;
+    height: 50px;
+}
+
+.loading {
+    font-size: 24px;
+}
+
+.recargar {
+    height: 30px;
+    padding: 20px;
+}
+

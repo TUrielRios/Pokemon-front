@@ -1,0 +1,116 @@
+.card-about {
+    background-color: #f8f8f8;
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: left;
+}
+
+.card-about-content {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.back-to-home-button {
+    background-color: #007bff; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 30px; /* Bordes redondeados */
+    padding: 15px 30px; /* Relleno interno */
+    font-size: 16px; /* Tamaño del texto */
+    cursor: pointer; /* Cursor al pasar el mouse */
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+    margin: 20px;
+}
+
+.back-to-home-button:hover {
+    background-color: #1169c8; /* Cambia el color de fondo al pasar el mouse */
+}
+
+.back-to-home-button:active {
+    background-color: #83873e; /* Cambia el color de fondo cuando se presiona el botón */
+}
+
+.card-about-image img {
+    height: 50vh;
+    border-radius: 50%;
+    border: 1px solid #007bff;
+    box-shadow: 0 2px 4px rgba(21, 66, 125, 0.695);
+}
+
+.card-about-details {
+    margin-left: 20px;
+}
+
+.about-text {
+    font-size: 24px;
+    margin: 0;
+    color: #007bff;
+}
+
+.paragraph-text {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.skill {
+    width: 50%;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.skill-name {
+    width: 40%;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.skill-bar {
+    width: 60%;
+    background-color: #f0f0f0;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.skill-fill {
+    background-color: #007bff;
+    height: 100%;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    border-radius: 10px 0 0 10px;
+}
+
+.social-links {
+    display: flex;
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s;
+}
+.social-links a img{
+    height: 30px;
+}
+.social-links a:hover {
+    color: #0056b3;
+}
