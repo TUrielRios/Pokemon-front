@@ -39,3 +39,111 @@
 .buttonSB:hover {
   background-color: #897e0b;
 }
+
+@media (max-width: 320px) {
+  /* Estilos para el contenedor del SearchBar */
+.containerSB {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: rgb(39, 39, 39);
+  width: 100%;
+  margin: 0;
+}
+
+/* Estilos para el contenedor de cada SearchBar */
+.searchBar {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap; /* Permite que los elementos se ajusten correctamente */
+  justify-content: space-between; /* Espacio entre los elementos */
+  align-items: center;
+  width: 100%; /* Ocupa el ancho completo del contenedor */
+  padding: 5px;
+}
+
+/* Estilos para el input */
+.inputSB {
+  flex: 1;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.2);
+  height: 5px;
+  width: 100%; /* Ocupa el ancho completo del contenedor */
+}
+
+/* Estilos para el botón */
+.buttonSB {
+  background-color: #b9a817;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  height: 40px;
+  width: 100%; /* Ocupa el ancho completo del contenedor */
+}
+
+.buttonSB:hover {
+  background-color: #897e0b;
+}
+}
+
+@media (max-width: 425px) {
+  /* Estilos para el contenedor del SearchBar */
+.containerSB {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: rgb(39, 39, 39);
+  width: 60%;
+  margin: 0;
+}
+
+/* Estilos para el input */
+.inputSB {
+  flex: 1;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.2);
+  height: 5px;
+  width: 100%; /* Ocupa el ancho completo del contenedor en dispositivos de 425px o menos */
+}
+
+/* Estilos para el botón */
+.buttonSB {
+  background-color: #b9a817;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  height: 40px;
+  width: 100%; /* Ocupa el ancho completo del contenedor en dispositivos de 425px o menos */
+}
+
+.buttonSB:hover {
+  background-color: #897e0b;
+}
+}

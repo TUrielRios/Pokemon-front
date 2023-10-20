@@ -116,3 +116,71 @@
     background-color: #ff4e35; /* Cambia el color de fondo al pasar el cursor sobre el botón */
 }
 }
+
+/* Estilos para pantallas de 320px o menos */
+@media (max-width: 320px) {
+    .landing-container {
+        background-image: url("../../assets/landing-fondo.jpg");
+        background-size: cover;
+        background-position: center;
+        flex-direction: column; /* Cambia la dirección a columna para centrar el contenido */
+        padding: 20px; /* Agrega espacio interno */
+    }
+
+    .content {
+        position: static; /* Elimina la posición absoluta para centrar el contenido */
+        top: auto;
+        left: auto;
+        transform: none;
+        text-align: center;
+    }
+
+    .text-center {
+        font-size: 20px; /* Reduce el tamaño de fuente */
+        letter-spacing: 10px; /* Ajusta el espaciado entre letras */
+    }
+
+    .by {
+        font-size: 12px; /* Reduce el tamaño de fuente */
+        letter-spacing: 5px;
+    }
+
+    .redirect-button {
+        font-size: 10px; /* Reduce el tamaño de fuente */
+        letter-spacing: 2px;
+    }
+}
+
+/* Estilos para pantallas de 425px o menos */
+@media (max-width: 425px) {
+    .landing-container {
+        background-image: url("../../assets/landing-fondo.jpg");
+        background-size: cover;
+        background-position: center;
+        flex-direction: column; /* Cambia la dirección a columna para centrar el contenido */
+        padding: 20px; /* Agrega espacio interno */
+    }
+
+    .content {
+        position: static; /* Elimina la posición absoluta para centrar el contenido */
+        top: auto;
+        left: auto;
+        transform: none;
+        text-align: center;
+    }
+
+    .text-center {
+        font-size: 20px; /* Reduce el tamaño de fuente */
+        letter-spacing: 10px; /* Ajusta el espaciado entre letras */
+    }
+
+    .by {
+        font-size: 12px; /* Reduce el tamaño de fuente */
+        letter-spacing: 5px;
+    }
+
+    .redirect-button {
+        font-size: 10px; /* Reduce el tamaño de fuente */
+        letter-spacing: 2px;
+    }
+}

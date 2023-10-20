@@ -161,3 +161,133 @@
     background-color: #fff;
   }
 }
+
+
+/* Estilos para la barra de navegación en dispositivos de 320px o menos */
+@media (max-width: 320px) {
+  .navContainer {
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+  }
+
+  .imgContainer img {
+    width: 8rem;
+    margin-left: -40px;
+  }
+
+  .linkContainer {
+    display: flex;
+    width: 50%;
+    justify-content: space-between; /* Espacio entre los botones */
+    align-items: center;
+    margin: 0;
+    padding: 0 10px; /* Añadimos espacio interno a los enlaces */
+  }
+
+  .linkHome,
+  .linkCrear {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 5px; /* Agregamos margen entre los botones */
+  }
+
+  .linkHome {
+    font-weight: 600;
+  }
+
+  .linkHome:focus,
+  .linkHome:hover,
+  .linkCrear:focus,
+  .linkCrear:hover {
+    color: #fff;
+  }
+
+  .linkHome:focus:after,
+  .linkHome:hover:after,
+  .linkCrear:focus:after,
+  .linkCrear:hover:after {
+    width: 100%;
+    left: 0%;
+  }
+
+  .linkHome:after,
+  .linkCrear:after {
+    bottom: -2px;
+    left: 50%;
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+  }
+}
+
+@media (max-width: 450px) {
+  .navContainer {
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+  }
+
+  .imgContainer img {
+    width: 8rem;
+    margin-left: -20px;
+  }
+
+  .linkContainer {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten correctamente */
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0 10px;
+  }
+
+  .linkHome,
+  .linkCrear {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 14px;
+    color: #e1e1e1;
+    font-family: inherit;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    transition: color 400ms cubic-bezier(0.25, 0.8, 0.25, 1);
+    margin: 5px; /* Agregamos margen entre los botones */
+  }
+
+  .linkHome:focus,
+  .linkHome:hover,
+  .linkCrear:focus,
+  .linkCrear:hover {
+    color: #fff;
+  }
+
+  .linkHome:focus:after,
+  .linkHome:hover:after,
+  .linkCrear:focus:after,
+  .linkCrear:hover:after {
+    width: 100%;
+    left: 0%;
+  }
+
+  .linkHome:after,
+  .linkCrear:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    transition: width 400ms cubic-bezier(0.25, 0.8, 0.25, 1), left 400ms cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+}

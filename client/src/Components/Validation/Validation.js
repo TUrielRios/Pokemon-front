@@ -5,8 +5,8 @@ const validate = (input) => {
     if (!input.name) {
         errors.name = "Name is required";
     }
-    if (input.name.length > 10) {
-        errors.name = "Should be less than 10 characters";
+    if (input.name.length > 20) {
+        errors.name = "Should be less than 20 characters";
     }
 
     if (!regexImage.test(input.image)) errors.image = "Enter a valid URL";
