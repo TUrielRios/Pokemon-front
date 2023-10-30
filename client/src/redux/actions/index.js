@@ -12,7 +12,7 @@ export const ORDER_BY_NAME = "ORDER_BY_NAME";
 
 export const fetchPokemons = () => {
     return async (dispatch) => {
-        const response = await axios('http://localhost:3001/pokemons/')
+        const response = await axios('https://wiki-wlst.onrender.com/pokemons')
         return dispatch({
             type :  FETCH_POKEMONS,
             payload :response.data
@@ -23,7 +23,7 @@ export const fetchPokemons = () => {
 export const getByName = (name) => {
     return async (dispatch) => {
         try {
-            const response = await axios(`http://localhost:3001/pokemons/?name=${name}`)
+            const response = await axios(`https://wiki-wlst.onrender.com/pokemons/?name=${name}`)
             return dispatch ({
                 type: GET_BY_NAME ,
                 payload: response.data
@@ -38,7 +38,7 @@ export const getByName = (name) => {
 export const getByDetail = (id) => {
     return async (dispatch) => {
         try {
-            const response= await axios (`http://localhost:3001/pokemons/${id}`)
+            const response= await axios (`https://wiki-wlst.onrender.com/pokemons/${id}`)
             return dispatch( {
                 type: GET_BY_DETAIL,
                 payload: response.data
@@ -58,7 +58,7 @@ export const clearDetail = () => {
 
 export const getTypes = () => {
     return async (dispatch) => {
-        let info = await axios.get("http://localhost:3001/types", {});
+        let info = await axios.get("https://wiki-wlst.onrender.com/types", {});
         return dispatch({ type: GET_TYPES, payload: info.data });
     };
 };
@@ -102,7 +102,7 @@ export const createPokemons = (info) => {
     return async () => {
         try {
             const response = await axios.post(
-            "http://localhost:3001/pokemons/create",
+            "https://wiki-wlst.onrender.com/pokemons/create",
             info
             );
             //console.log(response);
